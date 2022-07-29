@@ -1,5 +1,6 @@
 # BaekJoon
 
+## Branch 전략
 * Correct : 풀이가 맞음
 * Wrong : 풀이가 틀림
 * Answer : 답안
