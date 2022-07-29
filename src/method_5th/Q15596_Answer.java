@@ -1,4 +1,4 @@
-package method;
+package method_5th;
 
 /***
  * 정수 n개가 주어졌을 때, n개의 합을 구하는 함수를 작성하시오.
@@ -7,7 +7,7 @@ package method;
  *         리턴값: a에 포함되어 있는 정수 n개의 합
  */
 
-public class Q15596 {
+public class Q15596_Answer {
     long sum(int[] a) {
         long sum = 0;
 
