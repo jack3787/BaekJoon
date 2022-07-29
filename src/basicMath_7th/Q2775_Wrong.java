@@ -23,7 +23,7 @@ package basicMath_7th;
 
 import java.util.Scanner;
 
-public class Q2775 {
+public class Q2775_Wrong {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int T = sc.nextInt(); // Test case의 수
