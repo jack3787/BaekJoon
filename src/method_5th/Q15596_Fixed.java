@@ -19,7 +19,7 @@
  */
 
 package method_5th;
-
+//
 public class Q15596_Fixed {
     long sum(int[] a) {
         long ans = 0;
