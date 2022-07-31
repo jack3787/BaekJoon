@@ -19,6 +19,7 @@
  *  제한:
  *  1 ≤ k, n ≤ 14
  */
+
 package basicMath_7th;
 
 import java.util.Scanner;
@@ -26,20 +27,34 @@ import java.util.Scanner;
 public class Q2775_Wrong {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int T = sc.nextInt(); // Test case의 수
+        int APT [][] = new int[15][15];
 
-        for(int i=0; i<T; i++){
+        for(int i=1; i<15; i++){
+            APT[i][1] = 1;
+            APT[0][i] = i;
+        }
+
+        for(int i=1; i<15; i++){
+            for (int j=1; j<15; j++) {
+                APT[i][j] = APT[i - 1][j] + APT[i][j - 1];
+            }
+        }
+
+        int T = sc.nextInt();
+
+        for(int i=0; i<T; i++) {
             int k = sc.nextInt();
             int n = sc.nextInt();
-
+            System.out.println(APT[k][n]);
         }
     }
 }
 
-// k층 1 2+k 2+4k
 
-// 4층 1 6 21 56 126 252 462 792... ?
-// 3층 1 5 15 35 70  126 210 330... ?
-// 2층 1 4 10 20 35  56  84  120 ... ?
-// 1층 1 3 6  10 15  21  28  36  ... ?
-// 0층 1 2 3  4  5   6   7   8   ... 14
+
+
+
+
+
+
+
