@@ -7,5 +7,5 @@
 * Fixed : 첫 풀이가 틀린 문제를 고침
 * Review : 복습
 
-1. Correct -> Answer -> Review
-2. Wrong(Fixed) -> Answer -> Review
+1. Correct -> (Answer) -> Review
+2. Wrong(Fixed) -> (Answer) -> Review
