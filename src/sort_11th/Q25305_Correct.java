@@ -26,7 +26,6 @@
  *  배열을 내림차순 정렬 하려면, Integer로 선언해야 한다.
  */
 
-
 package sort_11th;
 
 import java.util.Arrays;
