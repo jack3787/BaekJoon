@@ -2,7 +2,7 @@ package plzrun_1_InputOutput;
 
 import java.util.Scanner;
 
-public class Q1000 {
+public class Q1000_Correct {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

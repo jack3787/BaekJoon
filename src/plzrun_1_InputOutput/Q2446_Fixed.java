@@ -2,7 +2,7 @@ package plzrun_1_InputOutput;
 
 import java.util.Scanner;
 
-public class Q2446 {
+public class Q2446_Fixed {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

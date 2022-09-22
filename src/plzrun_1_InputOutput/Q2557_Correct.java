@@ -15,7 +15,7 @@ package plzrun_1_InputOutput;
  * 주의:
  */
 
-public class Q2557 {
+public class Q2557_Correct {
     public static void main(String[] args) {
         System.out.println("Hello World!");
     }

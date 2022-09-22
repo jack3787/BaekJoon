@@ -22,7 +22,7 @@ import java.io.InputStreamReader;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
-public class Q10951 {
+public class Q10951_Fixed {
 
     //풀이1 - Scanner, hasNextInt
     public static void main(String[] args) {
