@@ -13,7 +13,7 @@
  *  첫째 줄부터 N개의 줄에 오름차순으로 정렬한 결과를 한 줄에 하나씩 출력한다.
  */
 
-package step11_Sort;
+package step9_Sort;
 
 import java.util.Arrays;
 import java.util.Scanner;

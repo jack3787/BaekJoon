@@ -17,7 +17,7 @@
  *  3,4,5,6,7,8,9,10은 좋다.
  */
 
-package step27_TwoPointer;
+package step28_TwoPointer;
 
 import java.util.Arrays;
 import java.util.Scanner;

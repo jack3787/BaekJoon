@@ -34,7 +34,7 @@
  *  ( 10 ≤ x, y ≤ 200 )
  */
 
-package step10_BruteForce;
+package step11_BruteForce;
 
 import java.util.Scanner;
 

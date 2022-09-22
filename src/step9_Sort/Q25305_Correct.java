@@ -26,7 +26,7 @@
  *  배열을 내림차순 정렬 하려면, Integer로 선언해야 한다.
  */
 
-package step11_Sort;
+package step9_Sort;
 
 import java.util.Arrays;
 import java.util.Collections;
